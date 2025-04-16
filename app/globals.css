@@ -3,6 +3,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-geist-sans: 'Inter', sans-serif;  /* Add the actual font-family definition */
+  --font-geist-mono: 'Courier New', monospace; /* Add the actual font-family definition */
+  --font-motley: 'Motley Forces', sans-serif;
 }
 
 @theme inline {
@@ -19,8 +22,17 @@
   }
 }
 
+@font-face {
+  font-family: "Motley Forces";
+  src: url("/fonts/MotleyForces.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
 }
