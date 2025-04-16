@@ -1,9 +1,7 @@
-"use client";
-
 import React from "react";
 import Image from "next/image";
 
-export default function MechanicsPage({ categories, userId, stampCounts }) {
+export default function MechanicsPage() {
   return (
     <div
       style={{
