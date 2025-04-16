@@ -1,4 +1,4 @@
-import { SignupForm } from "../components/SignUpForm";
+// import { SignupForm } from "../components/SignUpForm";
 
 export default function Page() {
   return (
@@ -10,7 +10,7 @@ export default function Page() {
       }}
       className="min-h-screen flex flex-col items-center justify-center bg-white bg-opacity-70"
     >
-      <SignupForm />
+      {/* <SignupForm /> */}
     </div>
   );
 }
