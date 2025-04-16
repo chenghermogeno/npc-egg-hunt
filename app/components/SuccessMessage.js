@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Lottie from "lottie-react";
+// import Lottie from "lottie-react";
 import animationData from "./success-animation.json";
 
 export default function SuccessMessage({}) {
@@ -29,7 +29,7 @@ export default function SuccessMessage({}) {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center gap-4 bg-white text-[#7253cb] rounded-2xl px-6 py-8 shadow-md max-w-md mx-auto text-center transition-all duration-300">
       <div className="w-40 h-40">
-        <Lottie animationData={animationData} loop={false} autoplay />
+        {/* <Lottie animationData={animationData} loop={false} autoplay /> */}
       </div>
 
       <p className="text-xl font-semibold">
